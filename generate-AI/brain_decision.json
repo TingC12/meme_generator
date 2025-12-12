@@ -1,0 +1,8 @@
+{
+    "detect_prompt": "WHOLE_IMAGE",
+    "lora_key": "Ghibli",
+    "lora_weight": 0.8,
+    "final_prompt": "ghibli style, studio ghibli, anime style, transform the entire image into a Ghibli-style animated character, soft colors, whimsical atmosphere",
+    "needs_material": false,
+    "material_keyword": ""
+}
