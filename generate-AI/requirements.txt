@@ -1,0 +1,38 @@
+# === 核心 AI 框架 ===
+# 建議先透過 Conda 安裝 PyTorch (GPU版)，這裡列出是為了依賴檢查
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# === 黃金組合 (請勿隨意升級，否則 Florence-2 與 LoRA 會打架) ===
+# 這是為了支援 multimodalart/Florence-2-large-no-flash-attn
+transformers==4.41.2
+# 這是為了配合舊版 transformers 並支援 SDXL LoRA
+peft==0.11.1
+# 這是為了配合上述兩者
+diffusers==0.29.2
+accelerate==0.31.0
+# 這是為了解決 cached_download 棄用問題
+huggingface-hub==0.23.4
+
+# === 影像處理 ===
+# 必須低於 4.10 以避免 Numpy 2.0 版本衝突
+opencv-python<4.10
+opencv-python-headless<4.10
+Pillow>=10.0.0
+# 舊版 AI 庫需要 Numpy 1.x
+numpy<2.0
+
+# === 大腦與工具 ===
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# === 其他必要依賴 ===
+# Florence-2 模型的必要依賴
+timm<=0.9.16
+einops
+# 模型權重讀取
+safetensors
+protobuf
+sentencepiece
+scipy
