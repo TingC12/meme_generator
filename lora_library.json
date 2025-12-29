@@ -1,0 +1,26 @@
+{
+    "None": {
+        "filename": null,
+        "trigger": ""
+    },
+    "Detail Tweaker": {
+        "filename": "add-detail-xl.safetensors",
+        "trigger": ""
+    },
+    "Blindbox": {
+        "filename": "cute_blindbox_sdxl.safetensors",
+        "trigger": "blindbox, chibi, 3d render, cute, full body"
+    },
+    "Ghibli": {
+        "filename": "ghibli_last.safetensors",
+        "trigger": "ghibli style, studio ghibli, anime style"
+    },
+    "Minecraft": {
+        "filename": "minecraft.safetensors",
+        "trigger": "minecraft, voxel, pixel art, blocky"
+    },
+    "Cyberpunk": {
+        "filename": "sdxl_cyberpunk.safetensors",
+        "trigger": "cyberpunk, neon lights, futuristic, scifi"
+    }
+}
