@@ -1,8 +1,0 @@
-{
-    "detect_prompt": "head",
-    "lora_key": "None",
-    "lora_weight": 0.8,
-    "final_prompt": "a realistic Iron Man helmet, metallic texture, detailed mechanical features, replacing the human head",
-    "needs_material": true,
-    "material_keyword": "Iron Man Helmet"
-}
